@@ -15,7 +15,7 @@ while True:
             registro(usuario_registro, contraseña_registro)
             print (registro)
             
-        elif menu == '2':
+        elif menu == '2': 
             usuario_entrada = input("Ingrese su usuario: ")
             contraseña_entrada =input("Ingrese su contrasena: ")
             login(usuario_entrada, contraseña_entrada)

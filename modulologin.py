@@ -11,7 +11,8 @@ def login (user, password):
 def registro (user, password):
     with open ("Base_datos.txt", "a+") as datos:
         for line in datos:
-            
+
+    
             stored_user, _ = line.strip().split()
             if user == stored_user:
                 return ("Usuario ya existe, intente otro")
